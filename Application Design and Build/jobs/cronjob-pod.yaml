@@ -11,7 +11,7 @@ spec:
           containers:
           - name: cron-test
             image: busybox
-            command:
+            args:
             - /bin/sh
             - -c
             - date; echo "Hello World from CronJob!";
